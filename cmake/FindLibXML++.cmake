@@ -8,7 +8,7 @@
 include(LibFindMacros)
 
 # Dependencies
-libfind_package(LibXML++ LibXml2 ${DEPS_HINTS})
+libfind_package(LibXML++ LibXml2)
 find_path(LIBXML2_INCLUDE_DIR
     NAMES libxml
     ${DEPS_INCLUDE_HINTS}
